@@ -13,7 +13,7 @@ export default function ErrorPage() {
       <p className="text-center">
         <i>{error.statusText || error.message}</i>
       </p>
-      <Link to={"/"} className="d-block text-center">Go To Home</Link>
+      {/* <Link to={"/"} className="d-block text-center">Go To Home</Link> */}
       <button onClick={()=>navigate('/', {replace: true})} className="d-block text-center">Go To Home</button>
     </Col>
   );
